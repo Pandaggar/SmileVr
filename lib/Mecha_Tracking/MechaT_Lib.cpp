@@ -34,7 +34,7 @@ void HVec::HipVec(double L1,double L2,double A,double B, double L, double M, dou
     y3 = (((Jh * y2)  * 100) / 100);
     *vx = x3;
     *vy = y3;
-    *vz = z3;
+    *vz = -z3;
 }
 
 float HVec::floatmap(float x, float in_min, float in_max, float out_min, float out_max){
